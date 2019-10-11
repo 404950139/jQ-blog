@@ -13,7 +13,7 @@
         "../images/swiper4.jpg"
       ],
       isAuto: true,
-      animationType: "animation",
+      animationType: "animate",
       btnSize: 50,
       btnPosition: 20,
       btnColor: "#fff",
@@ -21,7 +21,13 @@
       liPosition: 30,
       liColor: "#fff",
       liActiveColor: "#000",
-      liMargin: 20
+      liMargin: 20,
+      turnTime: 0.3,
+      delay: 3000,
+      fadeTime: 500,
+      auto: true,
+      direction: "next",
+      mouseEnter: true
     });
   }
   function bindEvent() {}
